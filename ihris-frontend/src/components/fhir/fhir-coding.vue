@@ -57,7 +57,8 @@ export default {
       items: [],
       source: { path: "", data: {}, binding: this.binding },
       disabled: false,
-      lockWatch: false
+      lockWatch: false,
+      qField: "valueCoding"
     }
   },
   created: function() {
